@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="LbRoots" Margin="0,66,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="368" Width="780"/>
+        <TextBox x:Name="TbA" HorizontalAlignment="Left" Margin="201,41,0,0" Text="Введите a" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" LostFocus="TbA_LostFocus" GotFocus="TbA_GotFocus"/>
+        <TextBox x:Name="TbB" HorizontalAlignment="Left" Margin="382,41,0,0" Text="Введите b" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" LostFocus="TbB_LostFocus" GotFocus="TbB_GotFocus"/>
+        <TextBox x:Name="TbC" HorizontalAlignment="Left" Margin="572,41,0,0" Text="Введите c" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" LostFocus="TbC_LostFocus" GotFocus="TbC_GotFocus"/>
+        <Button x:Name="BtCalcRoots" Content="Посчитать корни" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="123" Click="BtCalcRoots_Click"/>
+        <Label Content="ax^2+bx+c=0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.307,-0.292" Width="780"/>
+
+
+    </Grid>
+</Window>
